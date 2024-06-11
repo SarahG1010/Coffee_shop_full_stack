@@ -1,0 +1,13 @@
+prefix=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv
+exec_prefix=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv
+libdir=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv/lib
+sharedlibdir=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv/lib
+includedir=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

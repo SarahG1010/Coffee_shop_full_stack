@@ -1,0 +1,11 @@
+prefix=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ziyuguo/Documents/AAA_job_finding/2_SDE/3_SDE_Projects/Coffee_shop_full_stack/backend/myenv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
